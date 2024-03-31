@@ -1,0 +1,70 @@
+
+categories : Spotlight/Insights/History/Environment/Travel/Health/Economy/Art
+
+--------------------------------------------------------------------------------------------------------
+
+socials : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+--------------------------------------------------------------------------------------------------------
+news_list:
+
+title : Sample News Headline 01
+short_des : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. 
+img1 : https://photo.teamrabbil.com/images/2024/01/01/1.png
+img2 : https://photo.teamrabbil.com/images/2024/01/01/2.png
+img3 : https://photo.teamrabbil.com/images/2024/01/01/3.png
+img4 : https://photo.teamrabbil.com/images/2024/01/03/Mask-Group-4.png
+keywords: news, news
+long_des: 
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even 
+slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators 
+on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful 
+of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic 
+words etc.</p>
+
+
+type:
+Slider 2
+Featured 1
+Popular 5
+Regular (4, baki gula)
+
+catID:
+
+--------------------------------------------------------------------------------------------------------
+policies:
+
+Privacy
+Terms
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even 
+slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators 
+on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful 
+of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic 
+words etc.</p>
+--------------------------------------------------------------------------------------------------------
+users:
+1	Bidhan	Das	264cat@gmail.com	01301226963	123	0	2024-03-24 17:14:15	2024-03-24 17:14:15
+--------------------------------------------------------------------------------------------------------
+comments:
+1	1	1	This is a comment..	2024-03-24 18:01:15	2024-03-24 18:01:15
+
+--------------------------------------------------------------------------------------------------------
+HOST = https://7news.vercel.app
+
+api deploy
+HOST = deploy again
+frontend deploy
+--------------------------------------------------------------------------------------------------------
+
+
+
+
