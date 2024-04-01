@@ -28,8 +28,8 @@ export async function middleware(req,res){
 export const config={
     matcher:[
         //middleware muloto login poroborti page/api gular jonno
-        // '/profile',
-        // '/comments',
+        '/profile',
+        '/comments',
 
         '/api/comments/manage',
 

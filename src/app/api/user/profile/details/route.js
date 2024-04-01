@@ -4,8 +4,6 @@ import {headers} from "next/headers";
 export async function GET(req,res){
     try {
 
-        //punoray cookie decode hobe as middleware
-
         const headerList=headers();
         const id=parseInt(headerList.get('id'));
 
