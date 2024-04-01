@@ -9,7 +9,7 @@ export async function GET(req,res){
 
         const prisma=new PrismaClient();
 
-        const count=await prisma.users.count({where:{email:email}});
+        const count=await prisma.users.count({where:{email:email}}); // count .. DB
 
         if(count===1){
             // The Math.floor() method rounds a number DOWN to the nearest integer 1.9 = 1

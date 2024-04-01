@@ -15,7 +15,7 @@ export async function GET(req,res) {
         const result=await prisma.comments.findMany({
             where: {userID:id},
             include:{
-                news_list:{select: {title: true}}
+                news_list:{select: {title: true}} // see in postman... why include??
             }
         })
 
