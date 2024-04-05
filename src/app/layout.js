@@ -1,5 +1,13 @@
 import "./globals.css";
 
+import '@/css/style.css'
+import '@/css/dropdownmenu.css'
+
+import NextTopLoader from "nextjs-toploader";
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 
 export const metadata = {
   title: "7news",
@@ -9,7 +17,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <head>
+        <title>7news</title>
+      </head> */}
+
       <body>
+        <NextTopLoader color="#E60000" height={2} speed={200}></NextTopLoader>
         {children}
       </body>
     </html>

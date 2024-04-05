@@ -1,0 +1,70 @@
+.icon-nav-img:active{ /* click korar somoy */
+    padding: 8px;
+    background:rgba(0, 0, 0, 0.16);
+    transition: 0.3s;
+}
+.icon-nav-img{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 45px ;
+    height: 45px ;
+    object-fit: cover;  /* fills the given dimension (fit) */
+}
+
+
+
+.user-dropdown:hover .user-dropdown-content {   /* main thing */
+    display: block;
+    transition: 0.3s;
+}
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#252526;
+    width: 260px;
+    right: 0;
+    transition: 0.3s;
+    border: 1px solid rgba(0,0,0,.075);
+    box-shadow: 0 1px 2px  rgba(0,0,0,.075); /* have a look */
+    z-index: 1;
+}
+.user-dropdown {
+    position: relative;
+}
+@media (max-width: 1024px) { 
+    .user-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:#252526;
+        width: 260px;
+        left: 0;
+        transition: 0.3s;
+        border: 1px solid rgba(0,0,0,.075);
+        box-shadow: 0 1px 2px  rgba(0,0,0,.075);
+        z-index: 1;
+    }
+ }
+
+ .user-dropdown{
+    display: inline-block;
+ }
+
+
+
+ .side-bar-item{            /* div na use korar fole */
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 5px 12px 12px;
+    width: 100% !important;
+}
+.side-bar-item:hover{
+    transition: 0.2s;
+    background-color: #535353;
+}
+.side-bar-item-caption{
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 500;
+    color: #ffffff;
+}
+/* ==================================================================================================================================  */
