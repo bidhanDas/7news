@@ -47,3 +47,15 @@ a:hover {
   margin: 5px;
   width: 120px;
 }
+
+
+
+.center-screen {
+  min-height: 85vh;
+}
+.card {
+  border: none !important;
+}
+.form-label{
+  font-size: 13px !important;
+}
