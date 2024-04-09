@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6,button,input,textarea{
 }
 
 p{
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -59,3 +59,21 @@ a:hover {
 .form-label{
   font-size: 13px !important;
 }
+
+
+
+.section-footer{
+  margin-top:100px;
+}
+.section-top{
+  margin-top:5px;
+}
+
+.caption{
+  color: rgb(255, 255, 255);
+}
+.caption:hover{
+  transition: 0.4s;
+  color: rgb(139, 149, 255);
+}
+/* ================================================================================================================================== */

@@ -8,7 +8,6 @@ export async function middleware(req,res){
 
         requestHeader.set('email',payload['email'])
         requestHeader.set('id',payload['id'])
-        //header a id, email o thakbe, encoded cookie o thakbe
 
         return NextResponse.next({request:{headers:requestHeader}})
 
