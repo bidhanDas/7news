@@ -52,7 +52,7 @@ const ProfileForm = (props) => {
 
             const options={method:'POST', body:JSON.stringify(data)}
             let res=await (await fetch("/api/user/profile/update",options)).json();
-            //may be as "client component"
+            //ai component a to ar middleware nai
 
             setSubmit(false);
 

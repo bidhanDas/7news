@@ -75,8 +75,8 @@ const LoginForm = () => {
                     }
 
                     <div className="my-3 d-flex">
-                        <Link href="/user/registration" className="nav-link mx-2">Sign Up |</Link>
-                        <Link href="/user/emailVerify" className="nav-link">Forget Password</Link>
+                        <Link href="/user/registration" className="nav-link mx-2 link-danger">Sign Up |</Link>
+                        <Link href="/user/emailVerify" className="nav-link link-danger">Forget Password</Link>
                     </div>
 
                 </div>

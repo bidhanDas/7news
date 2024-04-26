@@ -11,6 +11,7 @@ const UserCommentList = (props) => {
 
         const options = {method:'DELETE',body:JSON.stringify({id:parseInt(id)})}
         const res = await (await fetch("/api/comments/manage",options)).json();
+        //ai component a to ar middleware nai
 
         if(res.status == "success"){
             toast.success("Request Completed!");

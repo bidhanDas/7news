@@ -64,7 +64,7 @@ const SignUpForm = (props) => {
                 router.push("/user/login")
             }
             else{
-                toast.error("Invalid Request! ")
+                toast.error("Invalid Request!")
             }
 
         }
